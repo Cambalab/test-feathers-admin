@@ -16,9 +16,9 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 
 3. Database (Mysql)
 
-Create DB and config your user,pass,server and database (default.json)[./config/default.json]
+    Create DB and config your user,pass,server and database (default.json)[./config/default.json]
 
-(just add one user on db -> u:test@test.com p:password)
+    (just add one user on db -> u:test@test.com p:password)
 
 
 4. Start your app
