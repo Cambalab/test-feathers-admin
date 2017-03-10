@@ -1,0 +1,18 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mysql": "mysql://root:@localhost:3306/feathers",
+  "public": "../public/",
+  "auth": {
+    "shouldSetupSuccessRoute": false,
+    "shouldSetupFailureRoute": false,
+    "idField": "id",
+    "token": {
+      "secret": "TKJC918rXKvefWooKLXHvoHdKO62NpmoB5h5bxQdjFwzuJbdf/wedbYkprnUQ+j8O5p/OrP+tUfmkQw7Zrq7bA=="
+    },
+    "local": {
+        "usernameField": "email",
+        "passwordField": "password"
+    }
+  }
+}
