@@ -5,7 +5,7 @@ import { Admin, Resource } from 'admin-on-rest';
 import { ProvinciaList, ProvinciaEdit, ProvinciaCreate } from './Provincia';
 import { Delete } from 'admin-on-rest/lib/mui';
 
-import { authClient, restClient } from './aor-feathers-client';
+import { authClient, restClient } from 'aor-feathers-client';
 import feathersClient from './feathersClient';
 
 const App = () => (
