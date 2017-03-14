@@ -10,7 +10,7 @@ import feathersClient from './feathersClient';
 
 const App = () => (
     <Admin
-        authClient={authClient(feathersClient)}
+        authClient={authClient(feathersClient, {storageKey: 'feathers-jwt'})}
         restClient={restClient(feathersClient)}
     >
         <Resource name="provincias" list={ProvinciaList} create={ProvinciaCreate} edit={ProvinciaEdit} remove={Delete} />
