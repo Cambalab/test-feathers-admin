@@ -5,7 +5,7 @@ module.exports = {
       randomize: false,
       path: 'users',
       template: {
-        email: 'test@test.com ',
+        email: 'test@test.com',
         password: 'password'
       }
     },
