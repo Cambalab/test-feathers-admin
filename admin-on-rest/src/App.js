@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Admin, Resource, fetchUtils } from 'admin-on-rest';
+import { Admin, Resource } from 'admin-on-rest';
 
 import { ProvinciaList, ProvinciaEdit, ProvinciaCreate } from './Provincia';
 import { Delete } from 'admin-on-rest/lib/mui';
