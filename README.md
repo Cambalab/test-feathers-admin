@@ -12,3 +12,8 @@ You need to install a feathers app, follow this [Instructions](./feathers/README
 Is a react app for admin applications.
 You need to install a Admin-on-rest app, follow this [Instructions](./admin-on-rest/README.md)
 
+## Ng-Admin
+
+Is a react app for admin applications.
+You need to install a ng-admin app, follow this [Instructions](./ng-admin/README.md)
+

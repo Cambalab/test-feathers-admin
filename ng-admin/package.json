@@ -1,0 +1,25 @@
+{
+  "name": "ngadmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "start": "npm build && ./node_modules/.bin/webpack-dev-server --open --port 3000 --host :: "
+  },
+  "keywords": [],
+  "author": "José Luis Di Biase <josx@interorganic.com.ar> (http://www.camba.coop/)",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-loader": "^0.4.5",
+    "style-loader": "^0.14.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "ng-admin": "^1.0.1"
+  }
+}
